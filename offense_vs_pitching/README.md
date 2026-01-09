@@ -1,4 +1,4 @@
-# offense-vs-pitching-mlb
+# offense_vs_pitching
 **Offense vs. Pitching: An Analysis of Winning in Major League Baseball**
  
  This project analyzes whether offensive production or pitching performance is more strongly associated with team success in Major League Baseball. Using team-level data from 2015–2024, the analysis applies econometric methods to examine the relative relationships between standardized performance metrics and winning percentage.
