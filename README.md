@@ -1,16 +1,16 @@
 # offense-vs-pitching-mlb
-Offense vs. Pitching: An Analysis of Winning in Major League Baseball
+**Offense vs. Pitching: An Analysis of Winning in Major League Baseball**
  
  This project analyzes whether offensive production or pitching performance is more strongly associated with team success in Major League Baseball. Using team-level data from 2015–2024, the analysis applies econometric methods to examine the relative relationships between standardized performance metrics and winning percentage.
 The project emphasizes association rather than causation and demonstrates best practices in data cleaning, documentation, analysis, and visualization.
 
 
-Research Question
+**Research Question**
  
  Which dimension of performance — offense or pitching — is more strongly associated with team winning percentage in Major League Baseball?
 
 
-Data Overview
+**Data Overview**
 
   •	Unit of analysis: Team–season
   
@@ -18,8 +18,9 @@ Data Overview
   
   •	Sources:
   
-    o	Performance metrics: FanGraphs
-    o	Payroll data: Spotrac
+> •	Performance metrics: FanGraphs, Sport Reference
+>
+> •	Payroll data: Spotrac
  
  Key variables include:
   
@@ -34,7 +35,7 @@ Data Overview
  A full data dictionary documenting variable definitions and transformations is included.
 
 
-Methodology
+**Methodology**
 
   •	Ordinary Least Squares (OLS) regression framework
   
@@ -44,10 +45,10 @@ Methodology
   
   •	Robustness checks using alternative performance metrics (OPS+, ERA−)
   
- All coefficients are interpreted as conditional associations, not causal effects.
+  •	All coefficients are interpreted as conditional associations, not causal effects.
 
 
-Limitations
+**Limitations**
 
   •	Observational data does not support causal claims
   
@@ -57,8 +58,12 @@ Limitations
   
   •	Team and year fixed effects are not included and represent a potential extension
 
-Extensions
+**Extensions**
+
  Future work could:
+ 
   •	Incorporate team and season fixed effects
+  
   •	Use player-level data
+  
   •	Explore event-based or within-team designs
