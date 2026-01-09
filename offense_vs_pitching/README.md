@@ -26,9 +26,9 @@ The project emphasizes association rather than causation and demonstrates best p
   
   •	Winning Percentage (WPct)
   
-  •	Offensive performance (wRC+)
+  •	Offensive performance (wRC+) (league average = 100, higher = better)
   
-  •	Pitching performance (FIP−)
+  •	Pitching performance (FIP−) (league average = 100, lower = better)
   
   •	Team payroll (log-transformed)
  
